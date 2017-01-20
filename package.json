@@ -1,0 +1,21 @@
+{
+  "name": "containership.k8s.api-bridge",
+  "version": "0.1.0",
+  "description": "TBD",
+  "repository": "TBD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "hashcode": "^1.0.3",
+    "lodash": "^4.17.2",
+    "prettyjson": "^1.2.1",
+    "request": "^2.79.0",
+    "containership.plugin.v2": "file:../containership.plugin.v2"
+  }
+}
