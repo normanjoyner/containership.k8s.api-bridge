@@ -1,6 +1,6 @@
 {
-  "name": "containership.k8s.api-bridge",
-  "version": "0.1.0",
+  "name": "@jeremykross/containership.k8s.api-bridge",
+  "version": "1.0.2",
   "description": "TBD",
   "repository": "TBD",
   "main": "index.js",
@@ -10,15 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "async-lock": "^0.3.9",
-    "body-parser": "^1.15.2",
-    "containership.plugin.v2": "file:../containership.plugin.v2",
-    "containership.plugin-loader": "file:../containership.plugin-loader",
-    "containership.api-factory": "file:../containership.api-factory",
-    "express": "^4.14.0",
+    "@jeremykross/containership.abstraction.api": "^1.0.0",
     "hashcode": "^1.0.3",
     "lodash": "^4.17.2",
-    "prettyjson": "^1.2.1",
-    "request": "^2.79.0"
+    "request": "^2.81.0"
   }
 }
