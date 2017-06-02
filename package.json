@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@containership/containership.abstraction.api": "git+https://5fe3d6da9bd8b65f13abbbfb608aba1eab5d44d8:x-oauth-basic@github.com/containership/containership.abstraction.api",
-    "@containership/containership.k8s.translator": "git+https://5fe3d6da9bd8b65f13abbbfb608aba1eab5d44d8:x-oauth-basic@github.com/containership/containership.k8s.translator",
+    "@containership/containership.abstraction.api": "git://github.com/containership/containership.abstraction.api",
+    "@containership/containership.k8s.translator": "git://github.com/containership/containership.k8s.translator",
     "hashcode": "^1.0.3",
     "lodash": "^4.17.2",
     "request": "^2.81.0"
