@@ -11,6 +11,7 @@
   "dependencies": {
     "@containership/containership.abstraction.api": "git://github.com/containership/containership.abstraction.api",
     "@containership/containership.k8s.translator": "git://github.com/containership/containership.k8s.translator",
+    "async": "^2.5.0",
     "containership.utils": "git://github.com/containership/containership.utils",
     "hashcode": "^1.0.3",
     "lodash": "^4.17.2",
