@@ -12,6 +12,7 @@
     "@containership/containership.abstraction.api": "git://github.com/containership/containership.abstraction.api",
     "@containership/containership.k8s.translator": "git://github.com/containership/containership.k8s.translator",
     "async": "^2.5.0",
+    "containership.core.constants": "^0.3.0",
     "containership.utils": "git://github.com/containership/containership.utils",
     "flat": "^2.0.1",
     "hashcode": "^1.0.3",
