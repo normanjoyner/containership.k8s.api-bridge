@@ -1,6 +1,6 @@
 {
   "name": "@containership/containership.k8s.api-bridge",
-  "version": "1.0.5",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
@@ -9,11 +9,11 @@
   "author": "Containership Developers <developers@containership.io>",
   "license": "GPL-3.0",
   "dependencies": {
-    "@containership/containership.abstraction.api": "git://github.com/containership/containership.abstraction.api",
-    "@containership/containership.k8s.translator": "git://github.com/containership/containership.k8s.translator",
+    "@containership/containership.abstraction.api": "^1.0.2",
+    "@containership/containership.k8s.translator": "^1.0.0",
+    "@containership/containership.utils": "^1.0.0",
     "async": "^2.5.0",
     "containership.core.constants": "^0.3.0",
-    "containership.utils": "git://github.com/containership/containership.utils",
     "flat": "^2.0.1",
     "hashcode": "^1.0.3",
     "lodash": "^4.17.2",
